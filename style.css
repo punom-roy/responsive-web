@@ -13,8 +13,6 @@ body{
 .container{
     width: 90%;
     margin: 0 auto;
-
-    /* padding: 20px; */
 }
 
 h3{
@@ -28,7 +26,6 @@ p,li{
     line-height: normal;
 }
 button{
-/* Button */
 background: rgb(230, 83, 60);
 color: rgb(255, 255, 255);
 border: none;
@@ -47,9 +44,10 @@ button:focus{
     outline: none;
     background: rgb(218, 45, 45);
 }
-            
 
-/* Navbar */
+/*==================
+    Navbar
+===================*/
 .nav_bar{
     background:rgba(255, 255, 255, 0.13);
 
@@ -79,32 +77,27 @@ padding: 5px 0px;
 
 }
 
-/* Hero */
+/*===================
+    Hero Section
+====================*/
 .hero{
     display: flex;
     justify-content: space-between;
     background: linear-gradient(180.00deg, rgb(33, 33, 33),rgba(120, 119, 119, 0) 100%);
-    /* background-color: aquamarine; */
-    /* width: 90%; */
-    /* margin: 0px auto; */
 }
 .hero_text{
-width: 40%;
-/* height: 282px; */
+width: 50%;
 display: flex;
 flex-direction: column;
-
-/* gap: 28; */
 padding-top: 2rem;
-/* margin: 28px 0px; */
 margin:4rem;
 }
 .hero_text h3{
     color: rgb(255, 255, 255);
-
-    font-size: 4rem;
+    font-size: 4.1rem;
 }
 span{
+    font-family: "Allura", cursive;
     font-style:italic;
 }
 .hero_text p{
@@ -155,7 +148,6 @@ h4{
 }
 p{
     font-size: 1rem;
-
 }
 .card_2_text{
 position: absolute;
@@ -178,3 +170,424 @@ margin: 0px 10px;
 background: rgb(230, 83, 60);
 border-radius: 50%;
 }
+/*=====================================
+        Change Your Habits Section
+======================================*/
+.change-habits{
+    text-align: center;
+    padding-top: 30px;
+    }
+.change-habits h3{
+    margin: 0px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    }
+.change-habits h5{
+    font-size: 28px;
+    margin: 0px;
+    }
+    .change-habits p{
+    font-size: 14px;
+    font-weight: 100;
+    }
+    .change-habits-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 50px;
+    }
+    .change-habits-box img{
+    border-radius: 50%;
+    }
+    /*=============================================
+            Run an Extra Mile Easily CSS
+    =========================================*/
+.run-an-extra-mile{
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 50px;
+    padding: 30px;
+    }
+    .run-an-extra-mile h3{
+    margin: 0px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    }
+    .run-an-extra-mile p{
+    font-size: 14px;
+    font-weight: 100;
+    }
+    .run-an-extra-mile-box .btn{
+    margin-top: 30px;
+    font-size: medium;
+    color: #fefbfb;
+    padding: 10px 30px;
+    border: none;
+    background-color: rgb(230, 83, 60);
+    border-radius: 10px;
+    cursor: pointer;
+    } 
+    .run-an-extra-mile-box img{
+    width: 366px;
+    height: 312px;
+    left: 662px;
+    top: 30px;
+    border-radius: 20px;
+    margin: 20px;
+    }
+    /*=============================
+            BMI CSS
+    =============================*/
+    .cal-bmi{
+        padding-top: 2rem;
+        text-align: center;
+    }
+    .cal-bmi h2{
+        color: rgb(255, 255, 255);
+        font-size: 48px;
+        font-weight: 900;
+        margin-bottom: 0px;
+    }
+    .cal-bmi p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.3px;
+        margin-bottom: 50px;
+    }
+
+/* =========================== */
+    .bmi{
+
+    background-color: #222;
+    }
+    .bmi-content {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        max-width: 960px;
+        margin: 0 auto;
+        }
+    .bmi-chart h3{
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+        margin: 0px;
+    }   
+    .bmi-calculator h3{
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+        margin: 0px;
+    }
+    .bmi-chart, .bmi-calculator {
+        width: 45%;
+        padding: 20px;
+        border-radius: 5px;
+    }
+    
+    .bmi-chart table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+    
+    .bmi-chart table, .bmi-chart th, .bmi-chart td {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .bmi-chart th, .bmi-chart td {
+        padding: 10px;
+        text-align: left;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    .bmi-chart td {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    /* ==========bmi-calculator============ */
+    .bmi-calculator form {
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+    
+    .bmi-calculator input, .bmi-calculator select{
+        color: rgba(255, 255, 255, 0.6);
+        background-color: rgba(255, 255, 255, 0.1);
+        margin: 10px 0;
+        padding: 10px;
+        border: none;
+    }
+    .bmi-calculator button{
+        background-color: rgb(230, 83, 60);
+        color: #ffffff;
+        padding: 10px 50px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    /*=================================
+            Meet-Our-Team CSS
+    ==================================*/
+    .our_team{
+        margin-top: 30px;
+    }
+    .descriptions h3{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 48px;
+        font-weight: 900;
+        margin-bottom: 0px;
+        }
+        .descriptions p{
+            text-align: center;
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 0.3px;
+                }
+        .team-members{
+            background: rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: column;
+    
+        }
+        .box{
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+            position: relative;
+        }
+    .team-members img{
+        position: relative;
+            height: 250px;
+            width: 290px;
+            border-radius: 20px;
+            margin: 0px 5px;
+            }
+    
+    /* =========img_details=========== */
+    .box .img_details{
+        position: absolute;
+        bottom: 0;
+        margin: 20px;
+    }
+    .box .img_details h6{
+    margin: 0px;
+    font-size: medium;
+    letter-spacing: 1px;
+    font-weight: 900;
+    }
+    .box .img_details p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 5px;
+    }
+    
+    /* =====================
+        Our Activities ( EXtra )
+    =======================*/
+    .activities-section {
+        padding-top: 30px;
+    }
+    
+    .activities-section h2 {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 48px;
+        font-weight: 900;
+    }
+    .activities-section p {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 0.3px;
+
+    }
+    
+    .activities-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    
+    .activity {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 260px;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .activity img {
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+        height: 250px;
+        margin-bottom: 15px;
+    }
+    
+    .activity h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+        color: #555;
+    }
+    
+    .activity p {
+        font-size: 14px;
+        color: #777;
+        line-height: 1.6;
+    }
+    
+    /* login */
+    .login-bg{
+        background: url(login\ bg.png);
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        max-width: 960px;
+    }
+    
+    .login-container {
+        justify-content: right;
+        background: rgba(0, 0, 0, 0.6);
+        padding: 40px;
+        width: 350px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .login-form h2 {
+        color: #fff;
+        text-align: center;
+        margin-bottom: 18px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .input-group {
+        position: relative;
+        margin-bottom: 30px;
+    }
+    
+    .input-group input {
+        width: 100%;
+        padding: 10px 10px 10px 0;
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid #fff;
+        color: #fff;
+        font-size: 16px;
+        outline: none;
+    }
+    
+    .input-group label {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        color: #fff;
+        pointer-events: none;
+        transition: 0.5s;
+    }
+    .input-group input:focus ~ label,
+    .input-group input:valid ~ label {
+        top: -20px;
+        left: 0;
+        color: #ff8c00;
+        font-size: 12px;
+    }
+    
+    .login-container button {
+        width: 100%;
+        padding: 10px;
+        background: #ff8c00;
+        border: none;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+    
+    button:hover {
+        background: #e07b00;
+    }
+    
+    .sighup-link {
+        color: #fff;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    
+    .sighup-link a {
+        color: #ff8c00;
+        text-decoration: none;
+    }
+    
+    .sighup-link a:hover {
+        text-decoration: underline;
+    }
+    
+    /*=============================================
+                    Footer CSS
+    =============================================*/
+    .footer{
+        margin-top: 50px;
+        background: rgba(255, 255, 255, 0.1);
+    }
+    .row-1{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0px;
+    }
+    .fitness{
+    width: 50%;
+    }
+    .fitness h2{
+        color: rgb(230, 83, 60);
+        font-size: 70px;
+        font-weight: 800;
+        text-align: left;
+        font-style: italic;
+        margin: 0px;
+    }
+    .fitness p{
+    color: rgba(255, 255, 255, 0.5);
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        /* margin-left: 100px; */
+    }
+    .about a{
+        color: rgba(255, 255, 255, 0.5);
+        text-decoration: none;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    
+    .row-2{
+        border-top: 2px solid rgba(255, 255, 255, 0.1);
+    }
+    .row-2 h1{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.3px;
+        text-align: center;
+        margin: 0px;
+        padding: 20px;
+    }
