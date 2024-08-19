@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>responsive web page</title>
+    <script src="https://kit.fontawesome.com/da1ccd836a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,7 +19,9 @@
             <p>Contact</p>
             <p>About</p>
         </div>
-    </nav>
+        <div class="ham_barger">
+            <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+        </nav>
     <!-- Hero -->
     <section class="hero">
         
@@ -37,7 +40,7 @@
                 <p>Free Workout Videos</p>
             </div>
             <div class="card_2_text">
-                <div class="circle"></div>
+                <div class="circle"><i class="fa-solid fa-play"></i></div>
                 <div>
                     <h4>350+</h4>
                 <p>Video tutorial</p>
@@ -83,23 +86,19 @@
     <!--===============================
         Run an Extra Mile Easily Section
     =================================-->
-    <section>
-        <div class="container">
+    <section class="container">
+        
             <div class="run-an-extra-mile">
-                <div class="run-an-extra-mile-box">
-                    <div><h3>Run an Extra Mile Easily</h3></div>
-                    <div><p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p></div>
+                <div>
+                    <div><h3>Run an Extra <br>Mile Easily</h3></div>
+                    <div><p>We believe fitness should be accessible to everyone, <br>everywhere, regardless of income or access to a gym. <br>With hundreds of professional workouts.</p></div>
                     <button class="btn">Join Now</button>
                     </p>
-                        </div>
-                        <div class="run-an-extra-mile-box">
-                            
-                                <img src="run.jpg" alt="img..">
-                            
-                        </div>
+                </div>
+                <div>     
+                    <img src="run.jpg" alt="img..">  
                 </div>
             </div>
-        </div>
     </section>
 
     <!--============================  
@@ -142,6 +141,7 @@
                         </div>
                         <div class="bmi-calculator">
                             <h3>Calculate your BMI</h3>
+                            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
                             <form>
                                 <input type="text" placeholder="Height/cm">
                                 <input type="text" placeholder="Weight/kg">

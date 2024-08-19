@@ -50,31 +50,38 @@ button:focus{
 ===================*/
 .nav_bar{
     background:rgba(255, 255, 255, 0.13);
-
     display: flex;
     justify-content: space-between;
     align-items: center;
 padding: 5px 0px;
     padding-top: 3rem;
 }
+.nav_bar .span{
+    background: rgb(230, 83, 60);
+    border-radius: 20px;
+}
 .nav_bar h2{
-
     color: rgb(230, 83, 60);
     font-size: 2rem;
-    font-weight: 600;
     margin-left: 4rem;
 }
 .nav_options{
     display: flex;
-    justify-content: space-between;
-    gap: 2rem;
+    gap: 1rem;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 40px;
-    padding: 0.7rem;
+    padding: 10px 20px;
     margin-right: 4rem;
     cursor: pointer;
 
+}
+.nav_options p{
+    border-radius: 40px;
+    padding: 10px 20px;
+}
+.ham_barger{
+    display: none;
 }
 
 /*===================
@@ -120,7 +127,7 @@ margin: 20px 0px;
 }
 .hero_image img{
 
-    position: relative;
+position: relative;
 width: 349px;
 height: 580px;
 padding-top: 1rem;
@@ -128,9 +135,7 @@ margin-right: 4rem;
 }
 .card_1_text{
     background: rgba(87, 86, 86, 0.4);
-
     backdrop-filter: blur(5px);
-    
     border-radius: 12px;
 justify-content: center;
 position: absolute;
@@ -139,7 +144,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 padding: 10px;
-right: 30px;
+left: 1070px;
 top: 260px;
 
 }
@@ -155,21 +160,24 @@ background: rgba(87, 86, 86, 0.4);
 backdrop-filter: blur(5px);
 border-radius: 12px;
 display: flex;
+justify-content: center;
 align-items: center;
 width: 193px;
 height: 98px;
-padding: 0px 20px;
 right: 330px;
 bottom: 60px;
-
 }
 .card_2_text .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 width: 35px;
 height: 35px;
 margin: 0px 10px;
 background: rgb(230, 83, 60);
 border-radius: 50%;
 }
+
 /*=====================================
         Change Your Habits Section
 ======================================*/
@@ -178,6 +186,7 @@ border-radius: 50%;
     padding-top: 30px;
     }
 .change-habits h3{
+    color: #fff;
     margin: 0px;
     font-size: 48px;
     font-weight: 900;
@@ -213,30 +222,24 @@ border-radius: 50%;
     padding: 30px;
     }
     .run-an-extra-mile h3{
-    margin: 0px;
+        color: #fff;
     font-size: 48px;
-    font-weight: 900;
-    line-height: 120%;
-    letter-spacing: 0%;
+
     }
     .run-an-extra-mile p{
     font-size: 14px;
     font-weight: 100;
+    line-height: 30px;
     }
     .run-an-extra-mile-box .btn{
     margin-top: 30px;
-    font-size: medium;
-    color: #fefbfb;
-    padding: 10px 30px;
-    border: none;
-    background-color: rgb(230, 83, 60);
-    border-radius: 10px;
-    cursor: pointer;
+    padding: 10px 50px;
     } 
     .run-an-extra-mile-box img{
+        /* position: relative; */
     width: 366px;
     height: 312px;
-    left: 662px;
+    /* left: 662px; */
     top: 30px;
     border-radius: 20px;
     margin: 20px;
@@ -591,3 +594,111 @@ border-radius: 50%;
         margin: 0px;
         padding: 20px;
     }
+
+/*=============================
+    Responsive Design 
+==============================*/
+@media screen and (max-width: 576px) {
+    /* -- Nav -- */
+    .nav_options{
+        display: none;
+    }
+    .ham_barger{
+        display: block;
+        padding-right: 40px;
+    }
+    .ham_barger i{
+        font-size: 30px;
+    }
+    /* -- Hero -- */
+    .hero{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero_text{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .card_1_text{
+    left: 200px;
+    top: 760px;
+    }
+    .card_2_text{
+    left: 30px;
+    top: 920px;
+    }
+
+    .change-habits-box{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        gap: 50px;
+        }
+
+/* -- Run an Extra Mile Easily -- */
+        .run-an-extra-mile{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .run-an-extra-mile .btn{
+            justify-content: center;
+            text-align: center;
+            padding: 20px 100px;
+            align-items: center;
+        }
+
+/* ------- BMI ------- */
+    .bmi-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .bmi-content h3{
+        color: #fff;
+        font-size: 18px;
+    }
+    .bmi-content p{
+        color: #777;
+    }
+
+    .descriptions h3{
+        font-size: 30px;
+    }
+    .descriptions{
+        margin-bottom: 30px;
+    }
+    .team-members .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    /* footer */
+    .row-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    
+    }
+    .row-1 .about{
+        gap: 10px;
+    }
+}
+
+
+
+
